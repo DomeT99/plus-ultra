@@ -1,0 +1,23 @@
+:root {
+  --primary-color: #fa892d;
+  --primary-color-dark: #fa892d;
+  --secondary-color: #ffc862;
+  --black: #1e1e2e;
+}
+
+:root {
+  --vp-c-brand-1: var(--primary-color-dark);
+
+  --vp-button-brand-border: var(--primary-color);
+  --vp-button-brand-bg: var(--primary-color-dark);
+
+  --vp-button-brand-active-border: var(--primary-color);
+  --vp-button-brand-active-bg: var(--secondary-color);
+  --vp-button-brand-active-text: var(--black);
+
+  --vp-button-brand-hover-border: var(--primary-color);
+  --vp-button-brand-hover-bg: var(--secondary-color);
+  --vp-button-brand-hover-text: var(--black);
+
+  --vp-button-brand-text: var(--black);
+}

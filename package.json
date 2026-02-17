@@ -5,7 +5,10 @@
   "description": "Material Design components built on top of Bulma CSS, using pure CSS/Sass",
   "scripts": {
     "build": "sass --load-path=node_modules src/index.scss dist/plus-ultra.css --style compressed",
-    "watch": "sass --watch --load-path=node_modules src/index.scss dist/plus-ultra.css --style compressed"
+    "watch": "sass --watch --load-path=node_modules src/index.scss dist/plus-ultra.css --style compressed",
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
   },
   "repository": {
     "type": "git",
@@ -29,7 +32,8 @@
     "dist/plus-ultra.css.map"
   ],
   "dependencies": {
-    "bulma": "^1.0.4"
+    "bulma": "^1.0.4",
+    "vitepress": "^1.6.4"
   },
   "devDependencies": {
     "sass": "^1.97.3"

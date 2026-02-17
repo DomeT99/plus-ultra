@@ -1,0 +1,16 @@
+#button,
+#checkbox,
+#text,
+#radio,
+#select {
+  all: revert;
+  color-scheme: initial;
+  width: min-content;
+}
+#button:disabled,
+#checkbox:disabled,
+#text:disabled,
+#radio:disabled,
+#select:disabled {
+  cursor: auto;
+}
